@@ -5,7 +5,7 @@ import { config } from 'config'
 import SiteNav from '../SiteNav'
 import SiteLinks from '../SiteLinks'
 import './style.css'
-import profilePic from '../../pages/photo.jpg'
+import profilePic from '../../pages/k97-square.png'
 
 class SiteSidebar extends React.Component {
     render() {
@@ -21,14 +21,13 @@ class SiteSidebar extends React.Component {
             <h1><Link style={ {    textDecoration: 'none',    borderBottom: 'none',    color: 'inherit'} } to={ prefixLink('/') }> { config.siteAuthor } </Link></h1>
             ) :
             <h2><Link style={ {    textDecoration: 'none',    borderBottom: 'none',    color: 'inherit'} } to={ prefixLink('/') }> { config.siteAuthor } </Link></h2> }
-          <p>
-            { config.siteDescr }
-          </p>
+
+            <p dangerouslySetInnerHTML={ {    __html: config.siteDescr} } /></p>
         </header>
         )
 
         return (
-            <div className='sidebar'>
+            <div className='sidebar cust-sidebar'>
               <div className='sidebar-inner'>
                 <div className='blog-details'>
                   <header>
@@ -36,7 +35,6 @@ class SiteSidebar extends React.Component {
                   </header>
                 </div>
                 <div className='blog-options'>
-                  <SiteNav {...this.props}/>
                   <footer>
                     <SiteLinks {...this.props}/>
                     <p className='copyright'>

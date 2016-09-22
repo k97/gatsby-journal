@@ -9,13 +9,15 @@ import ReadNext from '../ReadNext'
 import './style.css'
 import '../../static/css/highlight.css'
 
+
 class SitePost extends React.Component {
     render() {
         const {route} = this.props
         const post = route.page.data
         const home = (
-        <div>
-          <Link className='gohome' to={ prefixLink('/') }> All Articles
+        <div  className="cust-header">
+          <Link className='gohome' to={ prefixLink('/') }>
+            K97
           </Link>
         </div>
         )

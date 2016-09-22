@@ -1,5 +1,5 @@
 .blog-social {
-	margin-top: 30px;
+	margin-top: 25px;
 }
 .blog-social ul {
 	list-style: none;
@@ -9,7 +9,7 @@
 }
 .blog-social ul > li {
 	float: left;
-	margin-right: 5px;
+	margin-right: 10px;
 	text-align: center;
 	height: 24px;
 	width: 24px;
@@ -24,9 +24,9 @@
 }
 .blog-social ul > li > a > i {
 	color: #606060;
-	font-size: 14px;
+	font-size: 24px;
 	line-height: 24px;
 }
 .blog-social ul > li:hover a > i {
-	color: #444;
+	color: #2486FF;
 }

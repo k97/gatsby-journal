@@ -12,7 +12,7 @@ class Template extends React.Component {
         const {location, children} = this.props
 
         return (
-            <div className='wrapper'>
+            <div className='swrapper'>
               { children }
             </div>
             );

@@ -7,7 +7,7 @@
 }
 .sidebar .sidebar-inner:after {
 	background: #eee;
-	background: linear-gradient(to bottom, #eee 0%, #eee 48%, #fff 100%);
+	background: linear-gradient(to bottom, #e5e5e5 0%, #efefef 48%, #fff 100%);
 	position: absolute;
 	content: '';
 	width: 1px;
@@ -19,23 +19,25 @@
 .sidebar .sidebar-inner img {
 	display: inline-block;
 	margin-bottom: 0;
-	border-radius: 50%;
+	border-radius: 15%;
 	background-clip: padding-box;
 }
 .sidebar .sidebar-inner h1, .sidebar .sidebar-inner h2 {
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 500;
-	line-height: 18px;
-	margin: 20px 0 10px;
+	line-height: 24px;
+	margin: 25px 0 8px;
+	color: #2B3238;
 }
 .sidebar .sidebar-inner p {
 	color: #888;
 	font-size: 16px;
 	line-height: 26px;
+	margin-top: 20px;
 	margin-bottom: 26px;
 }
 .sidebar .sidebar-inner p.copyright {
-	color: #b6b6b6;
+	color: #aaa;
 	font-size: 14px;
 }
 @media (max-width:1100px) {
@@ -64,4 +66,23 @@
 	.sidebar .sidebar-inner:after {
 		display: none;
 	}
+}
+
+.cust-sidebar {
+	max-width: 300px;
+}
+
+.twa {
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  margin: 0 .05em 0 .1em;
+  vertical-align: -0.1em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 1em 1em; }
+
+
+.twa-thinking-face {
+  background-image: url("https://twemoji.maxcdn.com/2/svg/1f914.svg");
 }
