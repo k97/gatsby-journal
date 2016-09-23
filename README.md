@@ -1,46 +1,30 @@
-# Lumen
+# Development repo for my GatsbyJS journal
 
-Gatsby starter for creating a blog
-
-## Features
-+ Inline CSS.
-+ Clean and extensible code.
-+ Six simple components: SiteSidebar, SiteNav, SiteLinks, SitePost, SitePage, ReadNext.
-+ [peterramsing/lost](https://github.com/peterramsing/lost) as a base for Grid.
-+ [matejlatin/Gutenberg](https://github.com/matejlatin/Gutenberg) as a base for Typography.
+Gatsby powered development repo of my journal.
 
 ## Installing
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new lumen https://github.com/wpioneer/gatsby-starter-lumen`
-
-## Running in development
-`gatsby develop`
-
-![](http://i.imgur.com/422y5GV.png)
-
-## Ports
-
-[Statinamic port](https://github.com/thangngoc89/statinamic-theme-lumen) by [Khoa Nguyen](https://github.com/thangngoc89)
-
-## License
-The MIT license.
-
-Copyright (c) 2016 Alexandr Shelepenok [ashk.io](http://ashk.io)
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of
-this software and associated documentation files (the "Software"), to deal in
-the Software without restriction, including without limitation the rights to
-use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
-of the Software, and to permit persons to whom the Software is furnished to do
-so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+1. Install gatsby `npm install -g gatsby`
+1. Install documentation site starter `gatsby new docs-site
+   gh:gatsbyjs/gatsby-starter-documentation`
+2. type `cd docs-site`
+2. type `gatsby develop`
+3. Open site in browser at [localhost:8000](http://localhost:8000). Verify clicking on links works.
+4. Try editing the site's config file `config.toml`.
+   Change the `siteTitle` key. The site's title should change shortly
+   after saving.
+5. Next try editing a doc page. Open
+   `/pages/docs/getting-started/index.md` and edit it. Again any saved
+   changes should load without refreshing in the browser.
+6. Add a new markdown page to the documentation. Copy the `getting-started`
+   directory to `some-additional-steps`. Then edit the markdown file
+   within the new directory. If you're familiar with other static site
+   generation software, you'll be familiar with the "frontmatter" at the
+   top of the file. Edit the title there + change the order to "5". Save
+   this. Ideally this new file would be hot reloaded like other changes
+   but I haven't figured out how to make this happen yet ([help
+   appreciated here](https://github.com/webpack/webpack/issues/1162)).
+   So to see your new page, restart `gatsby develop` and then refresh your
+   browser.
+7. Build your site `gatsby build`. The site is built to the `/public`
+   directory. Test that the build worked by running `gatsby serve-build`
+   which serves the contents of the `/public` directory.
