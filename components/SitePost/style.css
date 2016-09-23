@@ -1,12 +1,7 @@
 .blog-post {
-	/*margin-bottom: 10px;*/
-  padding: 25px;
+	margin-bottom: 40px;
 	border-radius: 1px;
-	transition: all .5s ease-in-out;
-}
-.blog-post:hover {
-	/*background: rgba(255,255,255,0.96);*/
-
+	/*transition: all .5s ease-in-out;*/
 }
 .blog-post:last-child {
 	margin-bottom: 10px;
@@ -23,7 +18,7 @@
 	font-family: 'Source Serif Pro', serif;
 	font-size: 16px;
 	line-height: 26px;
-	margin-bottom: 26px;
+	margin-bottom: 20px;
 }
 .blog-post time {
 	display: inline-block;
@@ -75,6 +70,7 @@
 	font-family: avenir, "avenir next", -apple-system, BlinkMacSystemFont,"Roboto", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 .blog-single .text p{
+	margin-bottom: 25px;
 	color: #4e4e4e;
 }
 .blog-single p a,.blog-post p a{
@@ -138,9 +134,9 @@
 	}
 	.gohome {
 		/*position: static;*/
-		margin: 20px auto 0;
+		/*margin: 20px auto 0;*/
 		text-align: center;
-		width: 85px;
+		/*width: 85px;*/
 		display: block;
 	}
 }

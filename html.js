@@ -12,7 +12,7 @@ module.exports = React.createClass({
     render() {
         const {body, route} = this.props
         const title = DocumentTitle.rewind()
-        const font = <link href="https://fonts.googleapis.com/css?family=Source+Serif:400,600" rel="stylesheet">
+        const font = <link href='https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600' rel='stylesheet' type='text/css' />
         let css
         if (process.env.NODE_ENV === 'production') {
             css = <style dangerouslySetInnerHTML={ {    __html: require('!raw!./public/styles.css')} } />
