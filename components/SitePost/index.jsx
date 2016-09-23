@@ -15,9 +15,10 @@ class SitePost extends React.Component {
         const {route} = this.props
         const post = route.page.data
         const home = (
-        <div  className="cust-header">
+        <div className="cust-header">
           <Link className='gohome' to={ prefixLink('/') }>
-            K97
+            <i className="icon-back ion-ios-arrow-thin-left"></i>
+            <span>K97</span>
           </Link>
         </div>
         )
@@ -37,7 +38,7 @@ class SitePost extends React.Component {
                   <ReadNext post={ post } {...this.props}/>
                   <hr></hr>
                   <p>
-                    { config.siteDescr }
+                    <span dangerouslySetInnerHTML={ { __html: config.siteDescr } } />
                     <a href={ config.siteTwitterUrl }>
                       <br></br> <strong>{ config.siteAuthor }</strong> on Twitter</a>
                   </p>

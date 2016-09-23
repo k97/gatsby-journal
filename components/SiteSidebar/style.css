@@ -30,6 +30,7 @@
 	color: #2B3238;
 }
 .sidebar .sidebar-inner p {
+	font-family: 'Source Serif Pro', serif;
 	color: #888;
 	font-size: 16px;
 	line-height: 26px;
@@ -70,19 +71,4 @@
 
 .cust-sidebar {
 	max-width: 300px;
-}
-
-.twa {
-  display: inline-block;
-  height: 1em;
-  width: 1em;
-  margin: 0 .05em 0 .1em;
-  vertical-align: -0.1em;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 1em 1em; }
-
-
-.twa-thinking-face {
-  background-image: url("https://twemoji.maxcdn.com/2/svg/1f914.svg");
 }

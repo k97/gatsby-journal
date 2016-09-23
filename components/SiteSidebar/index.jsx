@@ -13,17 +13,16 @@ class SiteSidebar extends React.Component {
         const isHome = location.pathname === prefixLink('/')
 
         let header = (
-        <header>
-          <Link style={ {    textDecoration: 'none',    borderBottom: 'none',    outline: 'none'} } to={ prefixLink('/') }>
-          <img src={prefixLink(profilePic)} width='75' height='75' />
-          </Link>
-          { isHome ? (
-            <h1><Link style={ {    textDecoration: 'none',    borderBottom: 'none',    color: 'inherit'} } to={ prefixLink('/') }> { config.siteAuthor } </Link></h1>
-            ) :
-            <h2><Link style={ {    textDecoration: 'none',    borderBottom: 'none',    color: 'inherit'} } to={ prefixLink('/') }> { config.siteAuthor } </Link></h2> }
-
-            <p dangerouslySetInnerHTML={ {    __html: config.siteDescr} } /></p>
-        </header>
+            <header>
+              <Link style={ {    textDecoration: 'none',    borderBottom: 'none',    outline: 'none'} } to={ prefixLink('/') }>
+                <img src={prefixLink(profilePic)} width='75' height='75' />
+              </Link>
+              { isHome ? (
+                <h1><Link style={ {    textDecoration: 'none',    borderBottom: 'none',    color: 'inherit'} } to={ prefixLink('/') }> { config.siteAuthor } </Link></h1>
+                ) :
+                <h2><Link style={ {    textDecoration: 'none',    borderBottom: 'none',    color: 'inherit'} } to={ prefixLink('/') }> { config.siteAuthor } </Link></h2> }
+                <p dangerouslySetInnerHTML={ {__html: config.siteDescr} } ></p>
+            </header>
         )
 
         return (
