@@ -15,4 +15,4 @@ I remember recording audio logs in the past and saving it offline. I started it 
 
 As a side note, this Gatsby powered journal will be an intermediate setup until I complete v6 of my site. One of the main reasons to do that, is gather content and reuse it later when v6 is live. So far, I haven’t spent much time on planning v6 but sometime later this week, I will drop another journal with all my hazy thoughts on it. The concepts are in a very primitive stage, so maybe its the right time to log them and start the work simultaneously.
 
-On the whole, I am just really excited to see this space getting re-activated. <i class="em em-smiley"></i> 
+On the whole, I am just really excited to see this space getting re-activated. <i class="em em-smiley"></i>
