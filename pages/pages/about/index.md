@@ -4,4 +4,5 @@ layout: page
 path: "/about"
 ---
 
-The kid from yesterday.
+
+**Karthikeyan Rajendran** is an **UI/UX Engineer**, currently working for Emirates Airlines, Dubai.

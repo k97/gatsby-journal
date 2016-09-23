@@ -47,10 +47,11 @@ html {
 }
 @media screen and (min-width:40em) {
 	html {
-		font-size: 18px;
-		font-size: 1.125rem;
+		font-size: 15px;
+		font-size: 0.93rem;
 	}
 }
+
 *, *::before, *::after {
 	box-sizing: inherit;
 }

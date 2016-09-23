@@ -30,16 +30,17 @@
 	color: #2B3238;
 }
 .sidebar .sidebar-inner p {
-	font-family: 'Source Serif Pro', serif;
+	font-family: 'Merriweather','Georgia','Times New Roman', serif;
+	font-weight: 300;
 	color: #888;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 26px;
 	margin-top: 20px;
 	margin-bottom: 26px;
 }
 .sidebar .sidebar-inner p.copyright {
 	color: #aaa;
-	font-size: 14px;
+	font-size: 12px;
 }
 @media (max-width:1100px) {
 	.sidebar .sidebar-inner {

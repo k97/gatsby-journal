@@ -12,7 +12,8 @@ module.exports = React.createClass({
     render() {
         const {body, route} = this.props
         const title = DocumentTitle.rewind()
-        const font = <link href='https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600' rel='stylesheet' type='text/css' />
+        const font = <link href='https://fonts.googleapis.com/css?family=Merriweather:300,400' rel='stylesheet' type='text/css' />
+        const emoji = <link href='https://afeld.github.io/emoji-css/emoji.css' rel='stylesheet' type='text/css'/>
         let css
         if (process.env.NODE_ENV === 'production') {
             css = <style dangerouslySetInnerHTML={ {    __html: require('!raw!./public/styles.css')} } />
@@ -28,11 +29,13 @@ module.exports = React.createClass({
                 { title }
               </title>
               { font }
+              { emoji }
               { css }
             </head>
             <body>
               <div id="react-mount" dangerouslySetInnerHTML={ {    __html: this.props.body} } />
               <script src={ prefixLink(`/bundle.js?t=${BUILD_TIME}`) } />
+              <script src="//twemoji.maxcdn.com/2/twemoji.min.js?2.2"></script>
             </body>
             </html>
         )
