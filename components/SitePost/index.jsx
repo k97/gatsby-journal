@@ -31,7 +31,8 @@ class SitePost extends React.Component {
                   <h1>{ post.title }</h1>
                   <div dangerouslySetInnerHTML={ {    __html: post.body} } />
                   <div className='date-published'>
-                    <em>Published { moment(post.datePublished).format('D MMM YYYY') }</em>
+                      <em>Published on: { moment(post.date).format('DD MMMM YYYY, hh:mm A') }</em>
+                    {/* <em>Published On: { moment(post.datePublished).format('DD MMM YYYY') }</em> */}
                   </div>
                 </div>
                 <div className='footer'>

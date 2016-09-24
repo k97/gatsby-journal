@@ -1,8 +1,15 @@
-# Development repo for my GatsbyJS journal
+# Dev repo of my journal
 
-Gatsby powered development repo of my journal.
+Journal is powered using [GatsbyJS](https://github.com/gatsbyjs/gatsby).
 
-## Installing
+## Workflow commands:
+```sh
+$ gatsby develop
+$ gatsby build
+$ gatsby serve-build
+```
+
+## Fresh Installation
 1. Install gatsby `npm install -g gatsby`
 1. Install documentation site starter `gatsby new docs-site
    gh:gatsbyjs/gatsby-starter-documentation`
