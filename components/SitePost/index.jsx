@@ -17,7 +17,7 @@ class SitePost extends React.Component {
         const home = (
         <div className="cust-header">
           <Link className='gohome' to={ prefixLink('/') }>
-            <i className="icon-back ion-ios-arrow-thin-left"></i>
+            <i className="icon-back icon-ion-ios-arrow-thin-left"></i>
             <span>K97</span>
           </Link>
         </div>

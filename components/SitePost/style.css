@@ -21,6 +21,7 @@
 	line-height: 26px;
 	margin-bottom: 20px;
 }
+
 .blog-post time {
 	display: inline-block;
 	font-size: 13px;
@@ -63,7 +64,18 @@
 	line-height: 31px;
 	margin-bottom: 31px;
 }
-
+.blog-single .text em {
+	color: #7a7a7a;
+}
+.blog-single figcaption {
+	display: block;
+	color: #666;
+	font-size: 13px;
+	font-size: 0.85rem;
+	font-weight: 500;
+	font-style: normal;
+	font-family: avenir, "avenir next", -apple-system, BlinkMacSystemFont,"Roboto", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
 .blog-single .text h1{
 	font-family: avenir, "avenir next", -apple-system, BlinkMacSystemFont,"Roboto", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
@@ -157,6 +169,8 @@
 }
 
 .icon-back {
+    position: relative;
+    bottom: 2px;
 	padding: 0px 5px 0 0;
 	font-size: 26px;
 	vertical-align: middle;

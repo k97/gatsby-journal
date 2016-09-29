@@ -12,10 +12,10 @@ class SiteLinks extends React.Component {
             <div className='blog-social'>
               <ul>
                 <li>
-                  <a href={ config.siteTwitterUrl }><i className='ion-social-twitter-outline'></i></a>
+                  <a href={ config.siteTwitterUrl }><i className='icon-ion-social-twitter-outline'></i></a>
                 </li>
                 <li>
-                  <a href={ config.siteGithubUrl }><i className='ion-social-github-outline'></i></a>
+                  <a href={ config.siteGithubUrl }><i className='icon-ion-social-github-outline'></i></a>
                 </li>
               </ul>
             </div>
