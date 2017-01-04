@@ -35,3 +35,6 @@ $ gatsby serve-build
 7. Build your site `gatsby build`. The site is built to the `/public`
    directory. Test that the build worked by running `gatsby serve-build`
    which serves the contents of the `/public` directory.
+
+   Pointers:
+   1. Blog dates are composed through ISO Date formate.
