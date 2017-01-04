@@ -2,10 +2,12 @@
 title: "Blogging restart"
 date: "2016-09-23T08:06:32.034Z"
 layout: post
-path: "blog/blogging-restart/"
+path: "journal/blogging-restart/"
 category: ""
 description: "After much procrastination, I have decided to take down my current site and replace it with a journal which is developed using GatsbyJS. This journal will be an intermediate space until the next version is complete."
 ---
+
+*After much procrastination, I have decided to take down my current site and replace it with a journal which is developed using GatsbyJS. This journal will be an intermediate space until the next version is complete.*
 
 This space has been dormant for a while after the last iteration. It's mainly because I lost the development setup for the blog module and redoing the setup meant spending more time than I could manage. Even then, I tried couple of times to set things up, but midway through had to drop it since it was messing with my mainstream project’s environment. It's a pain in the butt to do project setups on a workday and not to code or do something else interesting. Besides, the Ruby/Java environments are notorious for these kinda things. Also, I admit the fact that, v5 was done in a frivolous way. I didn't plan much of it in detail and maybe it was because of the rush to put the site out there. It's a shame that I couldn't do much about the blog setup cause I drafted few articles whenever I could find time and then couldn't really publish it. Some of those articles were interesting ones and few were written in the heat of the moment. Anyhow, I know what needs to be done and to make sure I do that, I‘m gonna record those things here.
 
