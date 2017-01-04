@@ -1,0 +1,38 @@
+// Place your settings in this file to overwrite the default settings
+{
+	"editor.fontLigatures": true,
+    "editor.fontFamily": "SF Mono",
+    "editor.fontSize": 12,
+    "editor.fontWeight": "normal",
+    "editor.wrappingColumn": 130,
+	"editor.detectIndentation": true,
+    "editor.wordWrap": true,
+    "editor.trimAutoWhitespace": true,
+    "editor.lineHeight": 30,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": false,
+	"diffEditor.ignoreTrimWhitespace": true,
+	"problems.autoReveal": true,
+    "search.exclude": {
+        "node_modules/": true,
+        ".sass-cache": true,
+        "**/.DS_Store": true,
+        ".tmp": true,
+        "target": true
+	},
+    "files.exclude": {
+        "node_modules/": true,
+        ".sass-cache": true,
+        "**/.DS_Store": true,
+        ".tmp": true,
+        "target": true
+    },
+    "scss.validate": true,
+	"html.suggest.html5": true,
+
+    // Defines space handling after function keyword for anonymous functions
+    "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+
+    // Defines space handling after opening and before closing non empty parenthesis
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false
+}
