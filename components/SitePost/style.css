@@ -16,10 +16,10 @@
 }
 .blog-post p {
 	font-family: 'Merriweather','Georgia','Times New Roman', serif;
-	font-weight: 300;
 	font-size: 14px;
 	line-height: 26px;
 	margin-bottom: 20px;
+	color: #555;
 }
 
 .blog-post time {
@@ -56,23 +56,23 @@
 .blog-single h1 {
 	text-align: center;
 	margin-top: 30px;
-	color: #333;
+	color: #222;
 }
 .blog-single .text {
 	font-family: 'Merriweather','Georgia','Times New Roman', serif;
 	font-weight: 300;
-	line-height: 31px;
-	margin-bottom: 31px;
+	line-height: 32px;
+	margin-bottom: 32px;
 }
 .blog-single .text em {
-	color: #7a7a7a;
+	color: #5a5a5a;
 }
 .blog-single figcaption {
 	display: block;
 	color: #666;
 	font-size: 13px;
 	font-size: 0.85rem;
-	font-weight: 500;
+	font-weight: 600;
 	font-style: normal;
 	font-family: avenir, "avenir next", -apple-system, BlinkMacSystemFont,"Roboto", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
@@ -81,7 +81,7 @@
 }
 .blog-single .text p{
 	margin-bottom: 25px;
-	color: #4e4e4e;
+	color: #2f2f2f;
 }
 .blog-single p a,.blog-post p a{
 	color: #5d93ff;
